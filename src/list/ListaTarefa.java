@@ -47,6 +47,8 @@ public class ListaTarefa {
 
 		    // Exibindo o número total de tarefas na lista
 		    System.out.println("Você tem " + listaTarefa.obterNumeroTotalTarefas() + " tarefas na lista:");
-
+		    
+		    // Exibindo as descrições das tarefas na lista
+		    listaTarefa.obterDescricoesTarefas();
 }
 }
