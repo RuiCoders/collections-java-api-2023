@@ -50,5 +50,15 @@ public class ListaTarefa {
 		    
 		    // Exibindo as descrições das tarefas na lista
 		    listaTarefa.obterDescricoesTarefas();
+		    
+		    // Removendo uma tarefa da lista
+		    listaTarefa.removerTarefa("Pagar Boleto");
+
+		    // Exibindo o número total de tarefas na lista após a remoção
+		    System.out.println("Agora você tem " + listaTarefa.obterNumeroTotalTarefas() + " tarefas na lista:");
+		    
+		    listaTarefa.obterDescricoesTarefas();
+		    
+		   
 }
 }
